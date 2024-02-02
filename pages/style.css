@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: rgba(67, 43, 174, 0.572);
+    color: rgb(235, 230, 230);
+    padding: 10px 0px;
+}
+.icon-links {
+    width: 35px;
+}
+main {
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(221, 218, 228);
+}
+li {
+    list-style-position: inside;
+}
+footer {
+    background-color: #cdb4db;
+    padding: 5px;
+}
+label {
+    display: block;
+}
+.outline {
+    border: 1px black solid;
+}
