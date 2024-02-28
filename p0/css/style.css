@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #88B44E;
-    --secondary: #FB9F38;
+    --primary: rgba(57, 118, 231, 0.7);
+    --secondary: #1d2235;
     --light: #F5F8F2;
     --dark: #252C30;
 }
@@ -255,7 +255,7 @@
 
 /*** Products ***/
 .product {
-    background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/product-bg.png) left bottom no-repeat;
+    background: rgba(208, 219, 239, 0.912);
     background-size: auto;
 }
 
@@ -290,7 +290,7 @@
 
 /*** About ***/
 .video {
-    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url(../img/video-bg.jpg) center center no-repeat;
+    background: linear-gradient(rgba(57, 118, 231, 0.7), rgba(138, 165, 214, 0.7)), url(../img/origamicarousel1.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -491,6 +491,9 @@
     color: var(--light);
     letter-spacing: 1px;
     box-shadow: none;
+}
+.btn-square {
+    background: var(--primary);
 }
 
 .copyright {
